@@ -40,3 +40,4 @@ package/
 
 # cms admin panel (local only)
 /public/admin/
+/src/pages/admin.astro
