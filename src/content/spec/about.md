@@ -1,29 +1,43 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+嘿，我是 **はやしうめ（HayashiUme）** 👋
 
-## 🛠️ 关于本站
+一个来自厦门的自由开发者，目前专注于独立开发与开源项目。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+## 🛠️ 技术栈
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+| 方向 | 技能 |
+|---|---|
+| **语言** | C#, JavaScript / TypeScript, Python |
+| **框架** | .NET, Unity, Astro |
+| **工具链** | Docker, GitHub Actions, Linux |
+| **领域** | 游戏 Mod 开发、服务端逆向、CI/CD |
 
+## 🔥 开源项目
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+主要在 **Among Us Modding 生态** 中活跃，参与和主导了多个社区项目：
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+- **[BepInEx](https://github.com/BepInEx/BepInEx)** — Unity / XNA 游戏补丁与插件框架（社区核心基础设施）
+- **[Empostor](https://github.com/Empostor/Empostor)** — 增强版 Among Us 私服搭建工具，功能更丰富的开源服务端
+- **[Hydra](https://github.com/HayashiUme/Hydra)** — Among Us 实用工具与反作弊 Mod
+- **[Ume-AntiCheat](https://github.com/HayashiUme/Ume-AntiCheat)** — 高度可定制的 Vanilla-Assisted 反作弊方案
+- **[TownOfNext](https://github.com/TownOfNext/TownOfNext)** — 一个带着爱与学习之心打造的 Among Us Mod
+- **[Nebula-Launcher](https://github.com/HayashiUme/Nebula-Launcher)** — Nebula on the Ship Mod 启动器
+- **[LLOneBot_Empostor_Verify](https://github.com/HayashiUme/LLOneBot_Empostor_Verify)** — Empostor 服务端 QQ 机器人验证插件
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+## 📡 找到我
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+- **GitHub** — [@HayashiUme](https://github.com/HayashiUme)
+- **Twitter / X** — [@nanometa710](https://x.com/nanometa710)
+- **Bilibili** — [@HayashiUme](https://space.bilibili.com/1958152197)
+- **Discord** — hayashiume
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+## 🏢 组织
 
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
+- [@CognifyDev](https://github.com/CognifyDev)
+- [@XtremeWave](https://github.com/XtremeWave)
+- [@TownOfNext](https://github.com/TownOfNext)
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
-
+*感谢你的来访！希望在这里能找到对你有用的内容。*
