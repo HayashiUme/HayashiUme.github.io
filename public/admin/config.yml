@@ -1,0 +1,77 @@
+backend:
+  name: github
+  repo: HayashiUme/HayashiUme.github.io
+  branch: main
+  base_url: https://decapcms-oauth.vercel.app
+  auth_endpoint: oauth/authorize
+  # 需要在 GitHub 注册 OAuth App 后填入 client_id
+
+locale: zh_CN
+publish_mode: editorial_workflow
+
+media_folder: src/assets/images
+public_folder: /src/assets/images
+
+collections:
+  - name: posts
+    label: 文章
+    label_singular: 文章
+    folder: src/content/posts
+    path: "{{slug}}/index"
+    create: true
+    fields:
+      - label: 标题
+        name: title
+        widget: string
+      - label: 发布日期
+        name: published
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+      - label: 更新日期
+        name: updated
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        required: false
+      - label: 描述
+        name: description
+        widget: text
+        required: false
+      - label: 置顶
+        name: pinned
+        widget: boolean
+        default: false
+      - label: 分类
+        name: category
+        widget: string
+        required: false
+      - label: 标签
+        name: tags
+        widget: list
+        required: false
+      - label: 封面图
+        name: image
+        widget: image
+        required: false
+      - label: 草稿
+        name: draft
+        widget: boolean
+        default: false
+      - label: 正文
+        name: body
+        widget: markdown
+
+  - name: spec
+    label: 页面
+    label_singular: 页面
+    folder: src/content/spec
+    create: true
+    fields:
+      - label: 标题
+        name: title
+        widget: string
+        required: false
+      - label: 正文
+        name: body
+        widget: markdown
