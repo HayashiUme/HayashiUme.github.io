@@ -37,3 +37,6 @@ Firefly-docs/
 cache/
 package/
 .obsidian/
+
+# cms admin panel (local only)
+/public/admin/
