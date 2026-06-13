@@ -1,13 +1,13 @@
+local_backend: true
+
 backend:
   name: github
   repo: HayashiUme/HayashiUme.github.io
   branch: main
   base_url: https://decapcms-oauth.vercel.app
   auth_endpoint: oauth/authorize
-  # 需要在 GitHub 注册 OAuth App 后填入 client_id
 
 locale: zh_CN
-publish_mode: editorial_workflow
 
 media_folder: src/assets/images
 public_folder: /src/assets/images
@@ -19,6 +19,7 @@ collections:
     folder: src/content/posts
     path: "{{slug}}/index"
     create: true
+    slug: "{{slug}}"
     fields:
       - label: 标题
         name: title
